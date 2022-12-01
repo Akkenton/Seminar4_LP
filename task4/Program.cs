@@ -9,7 +9,7 @@ int LengthOfArray()
 
 int[] FillArrayRandom(int size)
 {
-    int[] arr = new int[8];
+    int[] arr = new int[size];
     for (int i = 0; i < size; i++)
     {
         arr[i] = new Random().Next(0, 2);
